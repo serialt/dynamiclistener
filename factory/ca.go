@@ -8,7 +8,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/rancher/dynamiclistener/cert"
+	"github.com/serialt/dynamiclistener/cert"
 )
 
 func GenCA() (*x509.Certificate, crypto.Signer, error) {

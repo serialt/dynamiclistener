@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rancher/dynamiclistener/factory"
+	"github.com/serialt/dynamiclistener/factory"
 	"github.com/stretchr/testify/assert"
 	v1 "k8s.io/api/core/v1"
 	apiError "k8s.io/apimachinery/pkg/api/errors"

@@ -10,12 +10,12 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/rancher/dynamiclistener"
-	"github.com/rancher/dynamiclistener/factory"
-	"github.com/rancher/dynamiclistener/storage/file"
-	"github.com/rancher/dynamiclistener/storage/kubernetes"
-	"github.com/rancher/dynamiclistener/storage/memory"
 	v1 "github.com/rancher/wrangler/pkg/generated/controllers/core/v1"
+	"github.com/serialt/dynamiclistener"
+	"github.com/serialt/dynamiclistener/factory"
+	"github.com/serialt/dynamiclistener/storage/file"
+	"github.com/serialt/dynamiclistener/storage/kubernetes"
+	"github.com/serialt/dynamiclistener/storage/memory"
 	"github.com/sirupsen/logrus"
 	"golang.org/x/crypto/acme/autocert"
 )

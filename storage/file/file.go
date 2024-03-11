@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"os"
 
-	"github.com/rancher/dynamiclistener"
+	"github.com/serialt/dynamiclistener"
 	v1 "k8s.io/api/core/v1"
 )
 

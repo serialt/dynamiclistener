@@ -1,4 +1,4 @@
-module github.com/rancher/dynamiclistener
+module github.com/serialt/dynamiclistener
 
 go 1.20
 

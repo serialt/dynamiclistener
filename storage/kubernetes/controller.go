@@ -5,11 +5,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/rancher/dynamiclistener"
-	"github.com/rancher/dynamiclistener/cert"
 	"github.com/rancher/wrangler/pkg/generated/controllers/core"
 	v1controller "github.com/rancher/wrangler/pkg/generated/controllers/core/v1"
 	"github.com/rancher/wrangler/pkg/start"
+	"github.com/serialt/dynamiclistener"
+	"github.com/serialt/dynamiclistener/cert"
 	"github.com/sirupsen/logrus"
 	v1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/errors"
